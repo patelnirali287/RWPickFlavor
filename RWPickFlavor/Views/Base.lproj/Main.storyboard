@@ -144,14 +144,18 @@
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <navigationItem key="navigationItem" title="Choose Your Flavor" id="s0K-Qv-2Qg"/>
                     <connections>
-                        <outlet property="collectionView" destination="zft-ym-2ni" id="BT2-HH-Fqv"/>
+                        <outlet property="collectionView" destination="zft-ym-2ni" id="tcB-zS-cg6"/>
                         <outlet property="contentView" destination="HDe-ty-26z" id="W6h-C5-R5I"/>
                         <outlet property="iceCreamView" destination="eSO-Nb-JhM" id="Eve-ba-74N"/>
                         <outlet property="label" destination="rzX-YL-Uxg" id="q4K-7O-HsO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I2s-P7-l5b" sceneMemberID="firstResponder"/>
-                <customObject id="4S9-bY-Srf" customClass="PickFlavorDataSource" customModule="RWPickFlavor" customModuleProvider="target"/>
+                <customObject id="4S9-bY-Srf" customClass="PickFlavorDataSource" customModule="RWPickFlavor" customModuleProvider="target">
+                    <connections>
+                        <outlet property="collectionView" destination="zft-ym-2ni" id="4Nw-1k-4ef"/>
+                    </connections>
+                </customObject>
             </objects>
             <point key="canvasLocation" x="473" y="380"/>
         </scene>
